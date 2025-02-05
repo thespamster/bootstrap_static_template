@@ -1,0 +1,104 @@
+/* 
+    custom css for fixed footer 
+    
+    body is set to flex and column direction
+    height is set to height of the viewport
+*/
+
+body {
+    background-color: rgba(203, 164, 10, 0.15);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;  /* set css display to flex */
+    flex-direction: column; /* set flex direction to column */
+    min-height: 100dvh; /* set minimum height to 100dvh of the viewport height */
+
+    /*
+        if you want a background image uncomment the line below
+        background: url('/assets/img/<NAME OF IMAGE>') no-repeat center center;
+    */
+}
+
+.div-style {
+    height: 100dvh;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+    margin-bottom: 1rem;
+}
+
+.nav-style {
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+    margin-bottom: 1rem;
+}
+
+.btn-style {
+   margin-left: 1rem;
+   border: 0;
+}
+
+.menu-style {
+    background-color: rgba(255, 165, 0, 0.85);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+.dropdown-item:hover {
+    color: black;
+    background-color: rgba(255, 165, 0, 0.85);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+
+/* 
+    creates a footer that is fixed to the bottom of the display 
+    if the content is less than the height of the display or the
+    bottom of the content if the content height is greater than
+    the height of the display
+*/
+.footer-style {
+    margin-top: auto; /* this fixes the footer to bottom of the body */
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+    min-height: 3rem;
+}
+
+/*
+    a selection of primary test colors. set as background colors
+    remove these colors and replace with your own
+*/
+
+.test-col-red {
+    background-color: red;
+}
+
+.test-col-green {
+    background-color: green;
+}
+
+.test-col-blue {
+    background-color: blue;
+}
+
+.test-col-yellow {
+    background-color: yellow;
+}
+
+.test-col-orange {
+    background-color: orange;
+}
+
+.test-col-purple {
+    background-color: purple;
+}
+
