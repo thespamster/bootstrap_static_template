@@ -10,7 +10,7 @@ Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a
 
 [Favicon](https://favicon.io) - Free Favicon generator
 
-[Converter](https://convertio.co) - Free image converter. Used to change jpeg to webp
+[Convertio](https://convertio.co) - Free image converter. Used to change jpeg to webp
 
 
 
