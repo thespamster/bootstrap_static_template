@@ -8,9 +8,13 @@ Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a
 
 [Bootstrap Icons](https://icons.getbootstrap.com) - A selection of SVG icons. Free to use
 
+[Google Fonts](https://fonts.google.com) - Free fonts from Google
+
 [Favicon](https://favicon.io) - Free Favicon generator
 
 [Convertio](https://convertio.co) - Free image converter. Used to change jpeg to webp
+
+
 
 
 

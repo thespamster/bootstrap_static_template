@@ -21,6 +21,31 @@ body {
     */
 }
 
+/* 
+    css for google fonts
+    copied from google fonts website
+*/
+
+
+.roboto-condensed-400 {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .caveat-400 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .fs-6 {
+    font-size: 3rem !important;
+  }
+
 .div-style {
     height: 100dvh;
     width: 100%;
@@ -105,3 +130,9 @@ body {
     background-color: purple;
 }
 
+@media screen and (max-width: 576px) {
+    .fs-6 {
+        font-size: 2rem !important;
+    }
+    
+}
