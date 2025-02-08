@@ -6,14 +6,17 @@
 */
 
 body {
-    background-color: rgba(203, 164, 10, 0.35);
+    background-color: rgba(225, 242, 92, 0.25);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
-    display: flex;  /* set css display to flex */
-    flex-direction: column; /* set flex direction to column */
-    min-height: 100dvh; /* set minimum height to 100dvh of the viewport height */
+    display: flex;
+    /* set css display to flex */
+    flex-direction: column;
+    /* set flex direction to column */
+    min-height: 100dvh;
+    /* set minimum height to 100dvh of the viewport height */
 
     /*
         if you want a background image uncomment the line below
@@ -32,23 +35,30 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-
-  .caveat-400 {
+.caveat-400 {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .fs-6 {
+.caveat-300 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.fs-6 {
     font-size: 3rem !important;
-  }
+}
 
 .div-style {
-    height: 100dvh;
-    width: 100%;
+    min-height: 100dvh;
+    width:100%;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #888888;
     margin-bottom: 1rem;
@@ -71,11 +81,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.btn-style {
-   margin-left: 1rem;
-   border: 0;
-}
-
 .menu-style {
     background-color: rgba(255, 165, 0, 0.85);
     border: 0;
@@ -83,10 +88,10 @@ body {
     box-shadow: 2px 2px 10px #888888;
 }
 
-.dropdown-item:hover {
-    color: black;
-    background-color: rgba(255, 165, 0, 0.85);
-    border: 0;
+.alert-test {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    border: 2px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #888888;
 }
@@ -102,11 +107,21 @@ body {
     the height of the display
 */
 .footer-style {
-    margin-top: auto; /* this fixes the footer to bottom of the body */
+    margin-top: auto;
+    /* this fixes the footer to bottom of the body */
     margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #888888;
-    min-height: 3rem;
+    min-height: 9rem;
+}
+
+.img-fluid {
+    border-radius: 5px;
+}
+
+.img-style {
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 /*
@@ -119,7 +134,11 @@ body {
 }
 
 .test-col-green {
-    background-color: rgba(0, 128, 0, 0.25);
+    background-color: rgba(99, 242, 92, 0.25);
+}
+
+.test-col-green1 {
+    background-color: rgba(99, 242, 92, 0.75);
 }
 
 .test-col-blue {
@@ -127,7 +146,7 @@ body {
 }
 
 .test-col-yellow {
-    background-color: yellow;
+    background-color: rgba(242, 229, 92, 0.25);
 }
 
 .test-col-orange {
@@ -138,9 +157,50 @@ body {
     background-color: purple;
 }
 
+.test-col-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*
+    scrolling bar text
+*/
+
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    background: #007bff;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+.scrolling-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/*
+    media query for screen width less than 576px
+    changes font size of class fs-6 to 2rem
+*/
+
 @media screen and (max-width: 576px) {
     .fs-6 {
         font-size: 2rem !important;
     }
-    
+
 }
