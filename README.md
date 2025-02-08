@@ -14,6 +14,12 @@ Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a
 
 [Convertio](https://convertio.co) - Free image converter. Used to change jpeg to webp
 
+## Performance
+
+Testing was completed using Google Lighthouse.
+
+[Google Lighthouse](assets/img/lighthouse_performance.png) - Basic performance testing using Google dev tools
+
 
 
 
