@@ -18,7 +18,7 @@ Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a
 
 Testing was completed using Google Lighthouse.
 
-[Google Lighthouse](assets/img/lighthouse_performance.png) - Basic performance testing using Google dev tools
+![Google Lighthouse](assets/img/lighthouse_performance.png)
 
 
 

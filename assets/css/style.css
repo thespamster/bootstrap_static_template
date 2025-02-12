@@ -6,17 +6,17 @@
 */
 
 body {
-    background-color: rgba(225, 242, 92, 0.25);
+    background-color: rgba(238, 245, 10, 0.15);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
-    display: flex;
     /* set css display to flex */
-    flex-direction: column;
+    display: flex;
     /* set flex direction to column */
-    min-height: 100dvh;
+    flex-direction: column;
     /* set minimum height to 100dvh of the viewport height */
+    min-height: 100dvh;
 
     /*
         if you want a background image uncomment the line below
@@ -28,8 +28,6 @@ body {
     css for google fonts
     copied from google fonts website
 */
-
-
 .roboto-condensed-400 {
     font-family: "Roboto Condensed", serif;
     font-optical-sizing: auto;
@@ -51,14 +49,13 @@ body {
     font-style: normal;
 }
 
-
 .fs-6 {
     font-size: 3rem !important;
 }
 
 .div-style {
     min-height: 100dvh;
-    width:100%;
+    width: 100%;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #888888;
     margin-bottom: 1rem;
@@ -89,7 +86,7 @@ body {
 }
 
 .alert-test {
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 1);
     color: white;
     border: 2px;
     border-radius: 5px;
@@ -107,8 +104,9 @@ body {
     the height of the display
 */
 .footer-style {
+    /* this fixes the footer to bottom of the body or content */
     margin-top: auto;
-    /* this fixes the footer to bottom of the body */
+    /* footer styling */
     margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #888888;
@@ -124,6 +122,20 @@ body {
     box-shadow: 2px 2px 10px #888888;
 }
 
+/* highlight navigation options in navbar */
+#about:hover,
+#food:hover,
+#contact:hover,
+#jobs:hover,
+#about:focus,
+#food:focus,
+#contact:focus,
+#jobs:focus {
+    background-color: rgba(10, 245, 144, 0.35);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
 /*
     a selection of primary test colors. set as background colors
     remove these colors and replace with your own
@@ -134,11 +146,11 @@ body {
 }
 
 .test-col-green {
-    background-color: rgba(99, 242, 92, 0.25);
+    background-color: rgba(10, 245, 144, 0.35);
 }
 
 .test-col-green1 {
-    background-color: rgba(99, 242, 92, 0.75);
+    background-color: rgba(10, 245, 144, 0.85);
 }
 
 .test-col-blue {
@@ -146,7 +158,7 @@ body {
 }
 
 .test-col-yellow {
-    background-color: rgba(242, 229, 92, 0.25);
+    background-color: rgba(238, 245, 10, 0.25);
 }
 
 .test-col-orange {
@@ -169,7 +181,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    background: #007bff;
+    background: rgba(0, 0, 255, 1);
     color: white;
     padding: 1rem;
     font-size: 2rem;
@@ -187,6 +199,7 @@ body {
     from {
         transform: translateX(0%);
     }
+
     to {
         transform: translateX(-100%);
     }
