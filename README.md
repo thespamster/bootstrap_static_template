@@ -1,6 +1,6 @@
-# Bootstrap Static Site Template
+# Brioche Cafe Website
 
-Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a footer fixed to the bottom of the screen/content and three sections each with a height of 100dvh. The menu button is a customised Bootstrap dropdown menu.
+A static site built for the cafe I do a couple of shifts in a week. A great independent cafe/coffeeshop in the alternative capital of Britain, Totnes. Built using Bootstrap to provide a mobile first responsive design, with custom CSS and Javascript providing additional design features. Will be deployed from its own Github account with a custom domain.
 
 ## Technologies
 
@@ -13,6 +13,8 @@ Free for anybody to use. A static site using Bootstrap5.3 and custom CSS. With a
 [Favicon](https://favicon.io) - Free Favicon generator
 
 [Convertio](https://convertio.co) - Free image converter. Used to change jpeg to webp
+
+[Apple Maps Beta](https://beta.maps.apple.com/?ll=50.48122730090053%2C-3.7800370892087187&spn=0.03224970000002969%2C0.04732481436619196) - An alternative to Google Maps
 
 ## Performance
 
