@@ -123,7 +123,8 @@ body {
 }
 
 .btot-style:hover, .btot-style:focus {
-    background-color: rgba(10, 245, 144, 0.15);
+    background-color: black;
+    color:white !important;
 }
 
 .img-style {
